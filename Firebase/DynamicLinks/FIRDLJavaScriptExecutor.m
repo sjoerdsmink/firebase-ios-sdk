@@ -50,7 +50,7 @@ NSString *GINFingerprintJSMethodString() {
   return methodString;
 }
 
-@interface FIRDLJavaScriptExecutor () <UIWebViewDelegate, WKNavigationDelegate>
+@interface FIRDLJavaScriptExecutor () <WKNavigationDelegate>
 @end
 
 @implementation FIRDLJavaScriptExecutor {
